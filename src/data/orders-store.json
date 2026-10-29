@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "order_number": "NEX-1049",
+    "customer_name": "Tanvir Hossain",
+    "customer_phone": "+880 1711-234567",
+    "customer_email": "tanvir.h@gmail.com",
+    "shipping_address": "House 42, Road 11, Block D, Banani",
+    "city": "Dhaka",
+    "status": "processing",
+    "total_amount": 4900,
+    "payment_method": "Cash on Delivery",
+    "notes": "Please call before delivery. Deliver after 4:00 PM.",
+    "items": [
+      {
+        "product_id": 21306,
+        "name": "SONOFF PIR3-RF Motion Sensor: Smart Motion Sensor",
+        "slug": "sonoff-pir3-rf-motion-sensor-smart-motion-sensor",
+        "price": 950,
+        "quantity": 2,
+        "image": ""
+      },
+      {
+        "product_id": 20760,
+        "name": "Tuya Zigbee Gateway Hub – Smart Home Gateway with Bluetooth Support",
+        "slug": "tuya-zigbee-gateway-hub-bluetooth",
+        "price": 3000,
+        "quantity": 1,
+        "image": ""
+      }
+    ],
+    "created_at": "2026-10-26T17:26:00.563Z",
+    "updated_at": "2026-10-26T18:56:00.563Z"
+  },
+  {
+    "id": 2,
+    "order_number": "NEX-1048",
+    "customer_name": "Dr. Shahriar Rahman",
+    "customer_phone": "+880 1819-987654",
+    "customer_email": "shahriar.doc@yahoo.com",
+    "shipping_address": "Apartment 7B, Concord Tower, Gulshan-2",
+    "city": "Dhaka",
+    "status": "pending",
+    "total_amount": 23520,
+    "payment_method": "bKash / Nagad",
+    "notes": "Urgent installation needed for duplex residence.",
+    "items": [
+      {
+        "product_id": 20722,
+        "name": "SONOFF iHost Smart Home Hub AIBridge – Local Private Server (4GB/8GB) for Smart Home Systems",
+        "slug": "sonoff-ihost-smart-home-hub-aibridge-local-private-server-4gb-8gb-for-smart-home-systems",
+        "price": 7840,
+        "quantity": 3,
+        "image": ""
+      }
+    ],
+    "created_at": "2026-10-26T11:26:00.563Z",
+    "updated_at": "2026-10-26T11:26:00.563Z"
+  },
+  {
+    "id": 3,
+    "order_number": "NEX-1047",
+    "customer_name": "Farzana Karim",
+    "customer_phone": "+880 1912-345678",
+    "customer_email": "farzana.karim@outlook.com",
+    "shipping_address": "Plot 15, Sector 7, Uttara Model Town",
+    "city": "Dhaka",
+    "status": "completed",
+    "total_amount": 3950,
+    "payment_method": "Bank Transfer",
+    "notes": "Successfully installed and commissioned by Nexsolia tech team.",
+    "items": [
+      {
+        "product_id": 20760,
+        "name": "Tuya Zigbee Gateway Hub – Smart Home Gateway with Bluetooth Support",
+        "slug": "tuya-zigbee-gateway-hub-bluetooth",
+        "price": 3000,
+        "quantity": 1,
+        "image": ""
+      },
+      {
+        "product_id": 21306,
+        "name": "SONOFF PIR3-RF Motion Sensor: Smart Motion Sensor",
+        "slug": "sonoff-pir3-rf-motion-sensor-smart-motion-sensor",
+        "price": 950,
+        "quantity": 1,
+        "image": ""
+      }
+    ],
+    "created_at": "2026-10-24T19:26:00.563Z",
+    "updated_at": "2026-10-25T19:26:00.563Z"
+  },
+  {
+    "id": 4,
+    "order_number": "NEX-1046",
+    "customer_name": "Nayeem Chowdhury",
+    "customer_phone": "+880 1610-882244",
+    "customer_email": "nayeem.c@chittagong.net",
+    "shipping_address": "Nasirabad Housing Society, Road 3",
+    "city": "Chittagong",
+    "status": "completed",
+    "total_amount": 3800,
+    "payment_method": "Cash on Delivery",
+    "notes": "Courier delivery via Sundarban.",
+    "items": [
+      {
+        "product_id": 21306,
+        "name": "SONOFF PIR3-RF Motion Sensor: Smart Motion Sensor",
+        "slug": "sonoff-pir3-rf-motion-sensor-smart-motion-sensor",
+        "price": 950,
+        "quantity": 4,
+        "image": ""
+      }
+    ],
+    "created_at": "2026-10-22T19:26:00.563Z",
+    "updated_at": "2026-10-23T19:26:00.563Z"
+  },
+  {
+    "id": 5,
+    "order_number": "NEX-1045",
+    "customer_name": "Mahmudul Hasan",
+    "customer_phone": "+880 1715-443322",
+    "customer_email": "m.hasan@nextech.com.bd",
+    "shipping_address": "Dhanmondi 27, House 19",
+    "city": "Dhaka",
+    "status": "cancelled",
+    "total_amount": 7840,
+    "payment_method": "Cash on Delivery",
+    "notes": "Customer changed product model preference to 4-gang zigbee switch.",
+    "items": [
+      {
+        "product_id": 20722,
+        "name": "SONOFF iHost Smart Home Hub AIBridge – Local Private Server (4GB/8GB) for Smart Home Systems",
+        "slug": "sonoff-ihost-smart-home-hub-aibridge-local-private-server-4gb-8gb-for-smart-home-systems",
+        "price": 7840,
+        "quantity": 1,
+        "image": ""
+      }
+    ],
+    "created_at": "2026-10-20T19:26:00.563Z",
+    "updated_at": "2026-10-21T19:26:00.563Z"
+  }
+]

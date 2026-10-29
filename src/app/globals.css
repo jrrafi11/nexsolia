@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  --font-poppins: 'Poppins', 'Tajawal', 'Cairo', 'Noto Sans Bengali', Arial, sans-serif;
+  --font-outfit: 'Poppins', 'Tajawal', 'Cairo', 'Noto Sans Bengali', Arial, sans-serif;
+
+  /* NEXSOLIA Brand Palette */
+  --o: #0877E8;
+  --od: #075DB8;
+  --k: #071D3A;
+  --w: #FFFFFF;
+  --g1: #26364A;
+  --g2: #5B6B7D;
+  --g3: #93A2B3;
+  --ln: #E1EAF4;
+  --off: #F4F8FC;
+
+  /* Primary Brand Colors */
+  --aura-accent: #0877E8;
+  --aura-accent-dark: #075DB8;
+  --aura-slate: #123F78;
+  --aura-cream: #F4F8FC;
+  --aura-paper: #FFFFFF;
+  --aura-stone: #DCE8F5;
+  --aura-dark: #071D3A;
+  --aura-footer: #09172B;
+
+  /* Extended NEXSOLIA Colors */
+  --brand-blue: #0877E8;
+  --brand-cyan: #08A8F0;
+  --brand-navy: #123F78;
+  --brand-midnight: #071D3A;
+  --brand-gradient: linear-gradient(135deg,
+      #0877E8 0%,
+      #08A8F0 50%,
+      #075DB8 100%);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--w);
+  color: var(--k);
+  font-family: 'Poppins', 'Tajawal', 'Cairo', 'Noto Sans Bengali', Arial, sans-serif;
+}
+
+body {
+  background-color: var(--w);
+  color: var(--k);
+  font-family: 'Poppins', 'Tajawal', 'Cairo', 'Noto Sans Bengali', Arial, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba(8, 119, 232, 0.20);
+  color: var(--k);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--off);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #A7C7EB;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-blue);
+}
